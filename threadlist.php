@@ -5,8 +5,8 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="CodeZilla - Forums">
-  <title>CodeZilla - Forums</title>
+  <meta name="description" content="Code Fork - Forums">
+  <title>Code Fork - Forums</title>
   <!-- favicon -->
   <link rel="icon" type="image/png" href="assets/images/favicon.png">
   <!-- Bootstrap CSS -->
@@ -44,7 +44,7 @@
       <h1 class="display-4">
         <?php 
           echo $forumname; 
-        ?> - CodeZilla Forum
+        ?> - Code Fork Forum
       </h1>
       <p class="lead">
         <?php

@@ -3,6 +3,6 @@
   $servername = "localhost";
   $username = "root";
   $password = "";
-  $database = "codezilla";
+  $database = "codefork";
   $conn = mysqli_connect($servername, $username, $password, $database);
 ?>

@@ -5,8 +5,8 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="CodeZilla - Forums">
-  <title>CodeZilla - Forums</title>
+  <meta name="description" content="Code Fork - Forums">
+  <title>Code Fork - Forums</title>
   <!-- favicon -->
   <link rel="icon" type="image/png" href="assets/images/favicon.png">
   <!-- Bootstrap CSS -->
@@ -14,7 +14,7 @@
   <!-- css -->
   <link rel="stylesheet" href="assets/index.css">
   <!-- google fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <!-- Bootstrap icons -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
  
@@ -34,7 +34,7 @@
     <div class="top_text">
       <h1>
         <!-- top image text -->
-        <p class="typewrite" style="font-size: 60px;" data-period="2000" data-type='["CodeZilla"]'>
+        <p class="typewrite" style="font-size: 60px;" data-period="2000" data-type='["Code Fork"]'>
           <span class="wrap"></span>
         </p>
         <p style="font-size: 18px;">Coding, Questions, Solutions</p>

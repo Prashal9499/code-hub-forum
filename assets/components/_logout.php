@@ -2,5 +2,5 @@
   session_start();
   echo "logging you out please wait ... ";
   session_destroy();
-  header("Location: /codezilla/index.php");
+  header("Location: /codefork/index.php");
 ?>

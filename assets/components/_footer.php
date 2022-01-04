@@ -9,9 +9,9 @@
         
         <!--Grid column-->
         <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-          <h5>CodeZilla</h5>
+          <h5 class="bold">Code Fork</h5>
           <p>
-          CodeZilla is an online forum for discussions related to coding and study. People can help others and solve their problems related to different coding languages.
+          Code Fork is an online forum for discussions related to coding and study. People can help others and solve their problems related to different coding languages.
           </p>
         </div>
 
@@ -64,8 +64,8 @@
 
     <!-- Copyright -->
     <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-      ©️ 2021
-      <a class="text-light" href="index.php">CodeZilla</a>
+      ©️ 2022
+      <a class="text-light" href="index.php">Code Fork</a>
       <span> | </span>
       <a class="text-light" href="#">Back to top</a>
     </div>
