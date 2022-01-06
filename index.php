@@ -5,8 +5,8 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Code Fork - Forums">
-  <title>Code Fork - Forums</title>
+  <meta name="description" content="Code hub - Forums">
+  <title>Code hub - Forums</title>
   <!-- favicon -->
   <link rel="icon" type="image/png" href="assets/images/favicon.png">
   <!-- Bootstrap CSS -->
@@ -34,7 +34,7 @@
     <div class="top_text">
       <h1>
         <!-- top image text -->
-        <p class="typewrite" style="font-size: 60px;" data-period="2000" data-type='["Code Fork"]'>
+        <p class="typewrite" style="font-size: 60px;" data-period="2000" data-type='["Code hub"]'>
           <span class="wrap"></span>
         </p>
         <p style="font-size: 18px;">Coding, Questions, Solutions</p>

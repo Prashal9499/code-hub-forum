@@ -15,10 +15,10 @@
                 $_SESSION['sno'] = $row['sno'];
                 $_SESSION['useremail'] = $email;
                 echo "logged in" . $email;
-                header("Location:/codefork/index.php");
+                header("Location:/codehub/index.php");
             }
             else{
-                header("Location:/codefork/index.php");
+                header("Location:/codehub/index.php");
             }
         }
     }

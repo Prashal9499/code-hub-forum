@@ -3,7 +3,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="loginmodalLabel">Login to Code Fork</h5>
+                <h5 class="modal-title" id="loginmodalLabel">Login to Code hub</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <form action="assets/components/_handlelogin.php" method="post">

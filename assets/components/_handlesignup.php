@@ -18,7 +18,7 @@
                 $result = mysqli_query($conn, $sql);
                 if($result){
                     $showAlert = true;
-                    header("Location: /codefork/index.php?signupsuccess=true");
+                    header("Location: /codehub/index.php?signupsuccess=true");
                     exit();
                 }
             }
@@ -26,6 +26,6 @@
                 $showError = "Passwords do not match";  
             }
         }
-        header("Location: /codefork/index.php?signupsuccess=false&error=$showError");
+        header("Location: /codehub/index.php?signupsuccess=false&error=$showError");
     }
 ?>

@@ -5,8 +5,8 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Code Fork - Forums">
-  <title>Code Fork - Forums</title>
+  <meta name="description" content="Code hub - Forums">
+  <title>Code hub - Forums</title>
   <!-- favicon -->
   <link rel="icon" type="image/png" href="assets/images/favicon.png">
   <!-- Bootstrap CSS -->
@@ -30,9 +30,9 @@
     <div class="jumbotron">
       <h1 class="display-4 py-3">About Us</h1>
       <p class="lead">
-        Code Fork is founded in 2021 by developers, for developers. It is now a valuable resource for people who
+        Code hub is founded in 2022 by developers, for developers. It is now a valuable resource for people who
         want to make the most of their coding skills, from discussion and conversations to providing solutions.
-        Our Portal is started in 2021 as a way to showcase the groundbreaking development and discussions going on
+        Our Portal is started in 2022 as a way to showcase the groundbreaking development and discussions going on
         about Programming, Coding, and more. As of now we are just started yet we have around 6 discussion forums
         dealing with Python, JavaScript,
         PHP, CSS, HTML and Bootstrap and many more comming soon.</p>
