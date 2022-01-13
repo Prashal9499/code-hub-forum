@@ -13,8 +13,6 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
   <!-- css -->
   <link rel="stylesheet" href="assets/index.css">
-  <!-- google fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <!-- Bootstrap icons -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
  
@@ -34,10 +32,10 @@
     <div class="top_text">
       <h1>
         <!-- top image text -->
-        <p class="typewrite" style="font-size: 60px;" data-period="2000" data-type='["Code hub"]'>
+        <p class="typewrite" style="font-size: 8rem;" data-period="2000" data-type='["Code hub"]'>
           <span class="wrap"></span>
         </p>
-        <p style="font-size: 18px;">Coding, Questions, Solutions</p>
+        <p style="font-size: 1.6rem;">Coding, Questions, Solutions</p>
       </h1>
       <form class="d-flex justify-content-center" action="search.php" method="get">
           <input class="form-control me-2 px-3 w-25" type="search" placeholder="Search" name="search" aria-label="Search">

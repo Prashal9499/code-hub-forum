@@ -1,3 +1,6 @@
+/* google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+
 body,
 html {
   margin: 0;
@@ -11,8 +14,8 @@ html {
 }
 
 .navbar-brand {
-  font-weight: 700;
-  font-size: 2rem;
+  font-weight: 400;
+  font-size: 1.5rem;
 }
 
 .bold {
