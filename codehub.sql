@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 04, 2022 at 06:59 PM
+-- Generation Time: Jan 14, 2022 at 07:48 AM
 -- Server version: 10.4.22-MariaDB
 -- PHP Version: 8.1.1
 
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `codefork`
+-- Database: `codehub`
 --
 
 -- --------------------------------------------------------
@@ -83,7 +83,7 @@ INSERT INTO `comments` (`comment_id`, `comment_content`, `thread_id`, `comment_u
 (17, 'htjtjyryr', 17, 3, '2021-05-22 22:47:41'),
 (18, 'gthyjh', 1, 3, '2021-06-22 12:29:38'),
 (19, 'hga', 19, 7, '2021-07-19 13:06:05'),
-(20, 'dffsd', 13, 5, '2022-01-04 17:53:13');
+(20, 'yes necessary', 13, 5, '2022-01-04 17:53:13');
 
 -- --------------------------------------------------------
 
@@ -113,7 +113,8 @@ INSERT INTO `threads` (`thread_id`, `thread_title`, `thread_description`, `threa
 (14, 'Django or Flask', 'which one should i learn djanjo or flask ?', 1, 4, '2021-03-09 16:10:14'),
 (17, 'Angular ', 'bfmhy,hb\r\n', 2, 3, '2021-05-22 22:47:18'),
 (18, 'ggdfg', 'dgfhhj', 1, 3, '2021-06-22 12:28:58'),
-(19, 'pythn', 'fdhghjhZ', 1, 7, '2021-07-19 13:05:41');
+(19, 'pythn', 'fdhghjhZ', 1, 7, '2021-07-19 13:05:41'),
+(21, 'i want to learn react ', 'i dont know JS', 2, 11, '2022-01-12 21:13:15');
 
 -- --------------------------------------------------------
 
@@ -139,7 +140,8 @@ INSERT INTO `users` (`sno`, `user_email`, `user_password`, `timestamp`) VALUES
 (6, 'jaysingh@gmail.com', '$2y$10$X2h67qyo9BcN6dyyxfLg5utJVvrUEQ3LyfxdwbI/lDlHFtE/seP9u', '2021-03-09 16:15:40'),
 (7, 'demo@gmail.com', '$2y$10$ZRCAQ3rEjT0WE9oUTswZtuv4zEsvZTRvZTNNcFb6QWQSX/oUjpNqq', '2021-07-18 16:08:23'),
 (8, 'abcd@gmail.com', '$2y$10$gI1WlYY3lk06H9lRmrvifuvCx2eYZFrVP1jqIqr.cGwGyP3qPW1T6', '2021-07-19 13:06:39'),
-(11, 'email@gmail.com', '$2y$10$Xk32VqsFBLrslJuwjJPTfeIeXaBYc5Y0rV/bfm/oM.k/GEstHqlHS', '2022-01-04 22:35:14');
+(11, 'email@gmail.com', '$2y$10$Xk32VqsFBLrslJuwjJPTfeIeXaBYc5Y0rV/bfm/oM.k/GEstHqlHS', '2022-01-04 22:35:14'),
+(12, 'ashutosh@gmail.com', '$2y$10$mll45Ex4M0myetmgSzTa9eRDCtoGcdzK16q86x4Oy480R2OMW6GGS', '2022-01-12 21:15:47');
 
 --
 -- Indexes for dumped tables
@@ -184,19 +186,19 @@ ALTER TABLE `catogaries`
 -- AUTO_INCREMENT for table `comments`
 --
 ALTER TABLE `comments`
-  MODIFY `comment_id` int(8) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
+  MODIFY `comment_id` int(8) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
 
 --
 -- AUTO_INCREMENT for table `threads`
 --
 ALTER TABLE `threads`
-  MODIFY `thread_id` int(7) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
+  MODIFY `thread_id` int(7) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=23;
 
 --
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `sno` int(8) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
+  MODIFY `sno` int(8) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
